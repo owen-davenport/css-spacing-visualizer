@@ -27,6 +27,7 @@ bindColorPicker("h1Color", "--h1-color");
 bindColorPicker("pColor", "--p-color");
 bindColorPicker("pBg", "--p-bg");
 
+bindRangeSlider("bodyMargin", "bodyMarginValue", "--body-margin");
 bindRangeSlider("bodyPadding", "bodyPaddingValue", "--body-padding");
 bindRangeSlider("bodyOutline", "bodyOutlineValue", "--body-outline");
 bindRangeSlider("bodyBorder", "bodyBorderValue", "--body-border");
