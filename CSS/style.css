@@ -1,0 +1,66 @@
+:root {
+    --body-bg: #484444;
+    --h1-color: #c1cede;
+    --p-color: #c1dec7;
+    --p-bg: #008000;
+    --body-padding: 20px;
+    --body-outline: 10px;
+    --body-border: 10px;
+    --p-margin: 20px;
+    --p-padding: 10px;
+    --p-outline: 10px;
+    --p-font-size: 18px;
+}
+
+h1 {
+    color: var(--h1-color);
+    text-align: center;
+}
+
+body {
+    background-color: var(--body-bg);
+    font-family: comicsansms, sans-serif;
+    margin: 0;
+    padding: var(--body-padding);
+    outline: var(--body-outline) solid blue;
+    border: var(--body-border) solid red;
+}
+
+p {
+    color: var(--p-color);
+    font-size: var(--p-font-size);
+    text-align: left;
+    margin: var(--p-margin);
+    padding: var(--p-padding);
+    background-color: var(--p-bg);
+    outline: var(--p-outline) solid yellow;
+}
+
+.controls {
+    margin-top: 24px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 700px;
+}
+
+.controls h2 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.control-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.control-row label {
+    color: #ffffff;
+}
+
+.control-row input[type="range"] {
+    width: 280px;
+}

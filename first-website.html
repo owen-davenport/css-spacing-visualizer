@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <h1>Welcome to My First Website</h1>
+    <p>This is a simple webpage created as part of a learning exercise. It includes basic HTML structure, CSS styling, and JavaScript functionality.</p>
+
+    <section class="controls">
+        <h2>Style Controls</h2>
+
+        <div class="control-row">
+            <label for="bodyBg">Body Background</label>
+            <input type="color" id="bodyBg" value="#484444">
+        </div>
+
+        <div class="control-row">
+            <label for="h1Color">Heading Color</label>
+            <input type="color" id="h1Color" value="#c1cede">
+        </div>
+
+        <div class="control-row">
+            <label for="pColor">Paragraph Text Color</label>
+            <input type="color" id="pColor" value="#c1dec7">
+        </div>
+
+        <div class="control-row">
+            <label for="pBg">Paragraph Background</label>
+            <input type="color" id="pBg" value="#008000">
+        </div>
+
+        <div class="control-row">
+            <label for="bodyPadding">Body Padding: <span id="bodyPaddingValue">20</span>px</label>
+            <input type="range" id="bodyPadding" min="0" max="100" value="20">
+        </div>
+
+        <div class="control-row">
+            <label for="bodyOutline">Body Outline: <span id="bodyOutlineValue">10</span>px</label>
+            <input type="range" id="bodyOutline" min="0" max="40" value="10">
+        </div>
+
+        <div class="control-row">
+            <label for="bodyBorder">Body Border: <span id="bodyBorderValue">10</span>px</label>
+            <input type="range" id="bodyBorder" min="0" max="40" value="10">
+        </div>
+
+        <div class="control-row">
+            <label for="pMargin">Paragraph Margin: <span id="pMarginValue">20</span>px</label>
+            <input type="range" id="pMargin" min="0" max="100" value="20">
+        </div>
+
+        <div class="control-row">
+            <label for="pPadding">Paragraph Padding: <span id="pPaddingValue">10</span>px</label>
+            <input type="range" id="pPadding" min="0" max="100" value="10">
+        </div>
+
+        <div class="control-row">
+            <label for="pOutline">Paragraph Outline: <span id="pOutlineValue">10</span>px</label>
+            <input type="range" id="pOutline" min="0" max="40" value="10">
+        </div>
+
+        <div class="control-row">
+            <label for="pFontSize">Paragraph Font Size: <span id="pFontSizeValue">18</span>px</label>
+            <input type="range" id="pFontSize" min="10" max="48" value="18">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
